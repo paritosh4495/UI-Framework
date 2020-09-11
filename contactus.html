@@ -22,7 +22,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+            <a class="navbar-brand" href="index.html">Ristorante Con Fusion</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -92,7 +92,67 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                Form goes here
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name
+                        </label>
+                        <div class="col-md-10">
+                            <input type="text" id="firstname" class="form-control" name="firstname" placeholder="First name" required="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lasttname" class="col-md-2 col-form-label">Last Name
+                        </label>
+                        <div class="col-md-10">
+                            <input type="text" id="lastname" class="form-control" name="lastname" placeholder="last name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact tel.
+                        </label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" id="areacode" class="form-control" name="areacode" placeholder="area code" required>
+                        </div>
+                         <div class="col-7 col-md-7">
+                            <input type="tel" id="telnum" class="form-control" name="telnum" placeholder="tel.Number" required="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email
+                        </label>
+                        <div class="col-md-10">
+                            <input type="email" id="email" class="form-control" name="emailid" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve"><strong>May we contact you?</strong></label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel. </option>
+                                <option>Email</option>
+                            </select>
+                        </div>  
+                    </div>
+                    <div class="form-group row">
+                            <label for="feedback" class="col-md-2 col-form-label">Your Feedback!
+                            </label>
+                            <div class="col-md-10">
+                                <textarea  id="feedback" class="form-control" name="feedback" rows="12"required>
+                                </textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10 ">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                    </div>
+
+                </form>
             </div>
              <div class="col-12 col-md">
             </div>
